@@ -1,0 +1,26 @@
+html {
+    background-color: rgb(27, 2, 87);
+}
+
+body {
+    text-align: center;
+}
+
+canvas {
+    border: 1px solid grey;
+}
+
+
+img {
+    display: none;
+}
+
+/* p {
+    vertical-align: top;
+    text-align: left;
+    color: blue;
+    position: relative;
+    top: 60px;
+    left: 160px; 
+    
+} */
