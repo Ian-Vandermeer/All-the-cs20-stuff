@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>COMMUNITY AGES</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <h1>COMMUNITY AGES</h1>
+    <hr>
+    <p>Select an action from the drop-down menu and then click the 'Go' button to perform the action.</p>
+    <p>
+      <select id="menu">
+        <option value="demographics">Demographics</option>
+        <option value="add-member">Add Member</option>
+        <option value="alien-abduction">Alien Abduction</option>
+        <option value="move-to-college">Move to College</option>
+        <option value="time-travel">Time Travel</option>
+        <option value="flu-epidemic">Flu Epidemic</option>
+      </select>
+      <button id='go'>Go</button>
+    </p>
+
+    <!-- Canvas for drawing -->
+    <canvas id="myCanvas"></canvas>
+
+    <!-- Div that may be used for output -->
+    <div id="output">
+      
+    </div>
+  </main>
+
+
+  <!-- Load JavaScript -->
+  <script src='main.js'></script>
+</body>
+
+</html>

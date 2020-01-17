@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>DS ASGN</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <h1>Yummy grocherry</h1>
+    <hr>
+    <p>Select an action from the drop-down menu and then click the 'Go' button to perform the action.</p>
+    <p>
+      <select id="menu">
+        <option value="displayAll">Display All Data</option>
+        <option value="priceRange">Price Range</option>
+        <option value="findOrigin">Find Origin</option>
+        <option value="findRand">Find Random Grocery</option>
+        <option value="inflate">Find Inflation</option>
+        <option value="priceStats">Find Price Stats</option>
+        <option value="addProduct">Add a Product</option>
+        <option value="removeProd">Remove Products Under $15</option>
+        <option value="removeSpecificProd">Remove Specified Product From List</option>
+
+      </select>
+      <button id='go'>Go</button>
+    </p>
+    <hr>
+
+    <!-- Div that may be used for output -->
+    <div id="output">
+    </div>
+  </main>
+
+
+  <!-- Load JavaScript -->
+  <script src='main.js'></script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+body {
+    background-color: #09457E;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 2vh 100px 8vh;
+    min-height: 90vh;
+}
+
+#go {
+    background-color: #Fb9C1B;
+    color: white;
+    padding: 2px 10px;
+    font-size: 18px;
+}
+
+#findRange {
+    background-color: #Fb9C1B;
+    color: white;
+    padding: 2px 8px;
+    font-size: 12px;
+}
+
+#menu {
+    font-size: 18px;
+    padding: 2px 10px;
+}

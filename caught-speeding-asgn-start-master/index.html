@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Caught Speeding</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <h1>Caught Speeding</h1>
+    <hr>
+
+    <p>Enter your car speed: <input type='number' id='speed'></p>
+    <p>Enter the speed limit: <input type="number" id='limit'></p>
+    <p>Is it your birthday?
+      <select id="birthday">
+        <option value="no">No</option>
+        <option value="yes">Yes</option>
+      </select>
+    </p>
+    <p><button id='calc-btn'>Determine Ticket</button></p>
+    <hr>
+
+    <p>Type of Ticket: <span id="ticket-type">----</span></p>
+    <p>Final Decision: <span id='decision'>----</span></p>
+
+  </main>
+
+  <!-- Load JavaScript -->
+  <script src='main.js'></script>
+</body>
+
+</html>
